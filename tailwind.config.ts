@@ -23,7 +23,7 @@ export default {
 		primary: 'var(--font-jetbrainsMono'
 	},
   	extend: {
-  		colors: {
+  		colors: { 
   			// background: 'var(--background)',
   			// foreground: 'var(--foreground)'
 			primary: '#1c1c22',

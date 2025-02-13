@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import Header from '@/components/ui/shared-component/Header';
+import Header from '@/components/shared-component/Header';
+import PageTransition from '@/components/shared-component/PageTransition';
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -28,7 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistMono.variable} antialiased`}>
         <Header />
-        {children}
+        <PageTransition>
+            {children}
+        </PageTransition>
       </body>
     </html>
   );
