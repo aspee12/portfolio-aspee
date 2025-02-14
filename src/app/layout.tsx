@@ -3,6 +3,7 @@ import { Geist, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/shared-component/Header';
 import PageTransition from '@/components/shared-component/PageTransition';
+import StairTransition from '@/components/shared-component/StairEffect';
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -29,9 +30,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistMono.variable} antialiased`}>
         <Header />
-        <PageTransition>
-            {children}
-        </PageTransition>
+        <StairTransition />
+        <PageTransition> {children} </PageTransition>
       </body>
     </html>
   );
