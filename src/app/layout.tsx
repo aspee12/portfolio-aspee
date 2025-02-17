@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistMono.variable} antialiased`}>
+      <body className={`${geistMono.variable}`}>
         <Header />
         <StairTransition />
         <PageTransition> {children} </PageTransition>

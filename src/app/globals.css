@@ -2,13 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   font-family: Arial, Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   @apply bg-primary text-white leading-loose;
-}
+} */
 
 @layer base {
-  :root {
+  /* :root {
     --radius: 0.5rem;
-  }
+  } */
+   body {
+      @apply font-primary bg-primary text-white leading-loose;
+   }
+
+   .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold
+   }
+   .h1 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold
+   }
+   .h1 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold
+   }
 }
