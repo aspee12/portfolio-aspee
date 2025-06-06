@@ -2975,6 +2975,11 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
+"swiper@^11.2.5":
+  "integrity" "sha512-nG0kbIyBfeE2BPFt9nPUX03qUBF75o6+enzjIT/DfCmbh8ORlwhc4eZz1+4H/yseAgb3H+OoEYzmb64i0tYNnQ=="
+  "resolved" "https://registry.npmjs.org/swiper/-/swiper-11.2.5.tgz"
+  "version" "11.2.5"
+
 "tailwind-merge@^3.0.1":
   "integrity" "sha512-AvzE8FmSoXC7nC+oU5GlQJbip2UO7tmOhOfQyOmPhrStOGXHU08j8mZEHZ4BmCqY5dWTCo4ClWkNyRNx1wpT0g=="
   "resolved" "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.0.1.tgz"
